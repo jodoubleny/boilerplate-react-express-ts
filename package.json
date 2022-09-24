@@ -1,0 +1,9 @@
+{
+  "name": "boilerplate-react-express-ts",
+  "version": "0.0.1",
+  "private": "true",
+  "workspaces": [
+    "client",
+    "server"
+  ]
+}
