@@ -1,10 +1,13 @@
 {
-  "name": "boilerplate-server-express-ts",
+  "name": "server",
   "version": "0.0.1",
   "main": "dist/index.js",
   "scripts": {
-    "start": "ts-node ./index",
-    "dev": "cross-env NODE_ENV=dev nodemon"
+    "build": "tsc",
+    "start": "node .",
+    "devStart": "ts-node index",
+    "dev": "cross-env NODE_ENV=dev nodemon",
+    "prod": "cross-env NODE_ENV=prod nodemon"
   },
   "dependencies": {
     "cors": "^2.8.5",

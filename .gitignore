@@ -1,13 +1,6 @@
-# dependencies
+.vscode/
+.yarn/
 node_modules/
-
-# production
-build/
-dist/
-
-# secrets
-**/.DS_Store*
-**/.env*
-
-# logs
-**/*.log*
+.pnp.cjs
+.pnp.loader.mjs
+.yarnrc.yml
